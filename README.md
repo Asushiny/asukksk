@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Asukksk
+tagline: 记录，成为更好的自己。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

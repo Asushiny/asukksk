@@ -1,5 +1,5 @@
 ---
-title: vuepress-theme-reco
+title: vuepress-theme-reco官方文档
 date: 2019-04-09
 ---
 
