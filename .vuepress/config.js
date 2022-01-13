@@ -81,16 +81,16 @@ module.exports = {
 		// 备案号
 		record: 'xxxx',
 		// 项目开始时间
-		startYear: '2021'
+		startYear: '2021',
 		/**
 		 * 密钥 (if your blog is private)
 		 */
 
-		// keyPage: {
-		//   keys: ['20532b5e1938a876574725991a04e721'],  // 1.3.0 版本后需要设置为密文
-		//   color: '#42b983',
-		//   lineColor: '#42b983'
-		// },
+		keyPage: {//密码为kksk
+		  keys: ['20532b5e1938a876574725991a04e721'],  // 1.3.0 版本后需要设置为密文
+		  color: '#42b983',
+		  lineColor: '#42b983'
+		},
 
 		/**
 		 * valine 设置 (if you need valine comment )
@@ -104,7 +104,7 @@ module.exports = {
 	markdown: {
 		lineNumbers: true
 	},
-	// plugins: [
+	plugins: [
 	// 	[ //看板娘
 	// 		//npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
 	// 		"@vuepress-reco/vuepress-plugin-kan-ban-niang",
@@ -157,26 +157,26 @@ module.exports = {
 	// 			]
 	// 		}
 	// 	],
-	// 	[ //鼠标点击特效
-	// 		//先安装在配置， npm install vuepress-plugin-cursor-effects --save
-	// 		"cursor-effects",
-	// 		{
-	// 			size: 3, // size of the particle, default: 2
-	// 			shape: ['circle'], // shape of the particle, default: 'star'
-	// 			zIndex: 999999999 // z-index property of the canvas, default: 999999999
-	// 		}
-	// 	],
-	// 	[//图片放大插件
-	// 		//先安装在配置， npm install vuepress-plugin-dynamic-title --save
-	// 		'@vuepress/plugin-medium-zoom', {
-	// 			selector: '.theme-default-content :not(a) > img',
-	// 			delay: 1000,
-	// 			options: {
-	// 				margin: 24,
-	// 				background: 'rgba(25,18,25,0.9)',
-	// 				scrollOffset: 40
-	// 			}
-	// 		}
-	// 	],
-	// ]
+		// [ //鼠标点击特效
+		// 	//先安装在配置， npm install vuepress-plugin-cursor-effects --save
+		// 	"cursor-effects",
+		// 	{
+		// 		size: 3, // size of the particle, default: 2
+		// 		shape: ['circle'], // shape of the particle, default: 'star'
+		// 		zIndex: 999999999 // z-index property of the canvas, default: 999999999
+		// 	}
+		// ],
+		[//图片放大插件
+			//先安装在配置， npm install vuepress-plugin-dynamic-title --save
+			'@vuepress/plugin-medium-zoom', {
+				selector: 'img.medium-zoom-image',
+				delay: 1000,
+				options: {
+					margin: 16,
+					background: 'rgba(25,18,25,0.9)',
+					scrollOffset: 40
+				}
+			}
+		],
+	]
 }
