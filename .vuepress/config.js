@@ -72,6 +72,8 @@ module.exports = {
 		searchMaxSuggestions: 10,
 		// 自动形成侧边导航
 		sidebar: 'auto',
+		//显示所有页面的标题链接
+		displayAllHeaders: true,
 		// 最后更新时间
 		lastUpdated: '上次更新',
 		// 作者
@@ -86,11 +88,11 @@ module.exports = {
 		 * 密钥 (if your blog is private)
 		 */
 
-		keyPage: {//密码为kksk
-		  keys: ['20532b5e1938a876574725991a04e721'],  // 1.3.0 版本后需要设置为密文
-		  color: '#42b983',
-		  lineColor: '#42b983'
-		},
+		// keyPage: {//密码为kksk
+		//   keys: ['20532b5e1938a876574725991a04e721'],  // 1.3.0 版本后需要设置为密文
+		//   color: '#42b983',
+		//   lineColor: '#42b983'
+		// },
 
 		/**
 		 * valine 设置 (if you need valine comment )

@@ -6,7 +6,7 @@ tags:
 categories:
  - Liella!
 ---
-<img src="/images/Liella.jpg" alt class="medium-zoom-image">
+<img src="/images/liella/liella.jpg" alt class="medium-zoom-image">
 
 Liella! First LoveLive! Tour ～Starlines～宫城 Day2<br/>
 Liella!第一次公演，最后一天，完美地结束啦<br/>
