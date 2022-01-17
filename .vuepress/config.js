@@ -6,12 +6,12 @@ module.exports = {
 		}
 	},
 	title: "Asukksk\'s Blog",
-	description: '记录，成为更好的自己。',
+	description: '好きなことを頑張るこどに，お終い何であるですか?!',
 	dest: 'public',
 	head: [
 		['link', {
 			rel: 'icon',
-			href: '/Liella.ico'
+			href: '/images/liella.ico'
 		}],
 		['meta', {
 			name: 'viewport',
@@ -31,12 +31,9 @@ module.exports = {
 				icon: 'reco-date'
 			},
 			{
-				text: '文档',
+				text: '回顾',
+				link: '/docs/diary/',
 				icon: 'reco-blog',
-				items: [{
-					text: 'diary',
-					link: '/docs/diary/'
-				}]
 			},
 			{
 				text: '关于',
@@ -63,10 +60,10 @@ module.exports = {
 		friendLink: [{
 			title: 'Asukksk\'s Blog',
 			desc: '记录，成为更好的自己。',
-			logo: '/mine.jpg',
+			logo: '/images/liella.png',
 			link: 'https://asukksk.vercel.app/'
 		}, ],
-		logo: '/Liella.ico',
+		logo: '/images/liella.ico',
 		// 搜索设置
 		search: true,
 		searchMaxSuggestions: 10,
@@ -79,7 +76,7 @@ module.exports = {
 		// 作者
 		author: 'Asukksk',
 		// 作者头像
-		authorAvatar: '/Liella.png',
+		authorAvatar: '/images/liella.png',
 		// 备案号
 		record: 'xxxx',
 		// 项目开始时间
@@ -107,67 +104,6 @@ module.exports = {
 		lineNumbers: true
 	},
 	plugins: [
-	// 	[ //看板娘
-	// 		//npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
-	// 		"@vuepress-reco/vuepress-plugin-kan-ban-niang",
-	// 		{
-	// 			theme: [ 'whiteCat','miku', 'wanko', 'blackCat', 'haruto', 'koharu', 'shizuku', 'z16'],
-	// 			clean: true,
-	// 			messages: {
-	// 				welcome: '你是我的master吗?',
-	// 				home: '回主页啦。',
-	// 				theme: '好吧，希望你能喜欢我的其他小伙伴。',
-	// 				close: '再见哦'
-	// 			},
-	// 			modelStyle: {
-	// 				right: '15px',
-	// 				bottom: '15px'
-	// 			},
-	// 			width: 200,
-	// 			height: 295
-	// 		}
-	// 	],
-	// 	[ //音乐播放器
-	// 		//npm install @vuepress-reco/vuepress-plugin-bgm-player --save
-	// 		'@vuepress-reco/vuepress-plugin-bgm-player',
-	// 		{
-	// 			position: {
-	// 				left: '10px',
-	// 				bottom: '10px',
-	// 				'z-index': '999999'
-	// 			},
-	// 			floatStyle: {
-	// 				left: '10px',
-	// 				bottom: '10px',
-	// 				'z-index': '999999'
-	// 			},
-	// 			audios: [
-	// 				// 本地文件示例
-	// 				// {
-	// 				//   name: '장가갈 수 있을까',
-	// 				//   artist: '咖啡少年',
-	// 				//   url: '/bgm/1.mp3',
-	// 				//   cover: '/bgm/1.jpg'
-	// 				// },
-	// 				// 网络文件示例
-	// 				{
-	// 					name: '未来は風のように',
-	// 					artist: 'Liella!',
-	// 					url: 'https://music.163.com//song/media/outer/url?id=1866489156.mp3',
-	// 					cover: 'http://p1.music.126.net/tswV4pcizY4ZVFasVwu0rw==/109951166333333684.jpg?param=130y130'
-	// 				}
-	// 			]
-	// 		}
-	// 	],
-		// [ //鼠标点击特效
-		// 	//先安装在配置， npm install vuepress-plugin-cursor-effects --save
-		// 	"cursor-effects",
-		// 	{
-		// 		size: 3, // size of the particle, default: 2
-		// 		shape: ['circle'], // shape of the particle, default: 'star'
-		// 		zIndex: 999999999 // z-index property of the canvas, default: 999999999
-		// 	}
-		// ],
 		[//图片放大插件
 			//先安装在配置， npm install vuepress-plugin-dynamic-title --save
 			'@vuepress/plugin-medium-zoom', {
@@ -180,5 +116,66 @@ module.exports = {
 				}
 			}
 		],
+		// [ //看板娘
+		// 	//npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
+		// 	"@vuepress-reco/vuepress-plugin-kan-ban-niang",
+		// 	{
+		// 		theme: [ 'whiteCat','miku', 'wanko', 'blackCat', 'haruto', 'koharu', 'shizuku', 'z16'],
+		// 		clean: true,
+		// 		messages: {
+		// 			welcome: '你是我的master吗?',
+		// 			home: '回主页啦。',
+		// 			theme: '好吧，希望你能喜欢我的其他小伙伴。',
+		// 			close: '再见哦'
+		// 		},
+		// 		modelStyle: {
+		// 			right: '15px',
+		// 			bottom: '15px'
+		// 		},
+		// 		width: 200,
+		// 		height: 295
+		// 	}
+		// ],
+		// [ //音乐播放器
+		// 	//npm install @vuepress-reco/vuepress-plugin-bgm-player --save
+		// 	'@vuepress-reco/vuepress-plugin-bgm-player',
+		// 	{
+		// 		position: {
+		// 			left: '10px',
+		// 			bottom: '10px',
+		// 			'z-index': '999999'
+		// 		},
+		// 		floatStyle: {
+		// 			left: '10px',
+		// 			bottom: '10px',
+		// 			'z-index': '999999'
+		// 		},
+		// 		audios: [
+		// 			// 本地文件示例
+		// 			// {
+		// 			//   name: '장가갈 수 있을까',
+		// 			//   artist: '咖啡少年',
+		// 			//   url: '/bgm/1.mp3',
+		// 			//   cover: '/bgm/1.jpg'
+		// 			// },
+		// 			// 网络文件示例
+		// 			{
+		// 				name: '未来は風のように',
+		// 				artist: 'Liella!',
+		// 				url: 'https://music.163.com//song/media/outer/url?id=1866489156.mp3',
+		// 				cover: 'http://p1.music.126.net/tswV4pcizY4ZVFasVwu0rw==/109951166333333684.jpg?param=130y130'
+		// 			}
+		// 		]
+		// 	}
+		// ],
+		// [ //鼠标点击特效
+		// 	//先安装在配置， npm install vuepress-plugin-cursor-effects --save
+		// 	"cursor-effects",
+		// 	{
+		// 		size: 3, // size of the particle, default: 2
+		// 		shape: ['circle'], // shape of the particle, default: 'star'
+		// 		zIndex: 999999999 // z-index property of the canvas, default: 999999999
+		// 	}
+		// ],
 	]
 }

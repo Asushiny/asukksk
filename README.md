@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Asukksk
-tagline: 记录，成为更好的自己。
+tagline: 好きなことを頑張るこどに，お終い何であるですか?!
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
