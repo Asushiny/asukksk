@@ -1,4 +1,4 @@
-<!-- ---
+---
 home: true
 heroText: Asukksk
 tagline: 好きなことを頑張るこどに，お終い何であるですか?!
@@ -24,7 +24,4 @@ features:
   details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
 - title: Tomorrow
   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
---- -->
----
-个人博客
 ---
