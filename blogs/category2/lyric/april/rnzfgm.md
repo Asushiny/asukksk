@@ -6,6 +6,7 @@ tags:
  - 光るなら
 categories:
  -  四月是你的谎言
+ -  歌词
 ---
 
 ## Part 1

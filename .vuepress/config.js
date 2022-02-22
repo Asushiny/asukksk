@@ -32,7 +32,7 @@ module.exports = {
 			},
 			{
 				text: '回顾',
-				link: '/docs/diary/',
+				link: '/docs/',
 				icon: 'reco-blog',
 			},
 			{
