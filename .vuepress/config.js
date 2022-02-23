@@ -5,8 +5,8 @@ module.exports = {
 			lang: 'zh-CN'
 		}
 	},
-	title: "Asukksk\'s Blog",
-	description: '好きなことを頑張るこどに，お終い何であるですか?!',
+	title: "Asushiny\'s Blog",
+	description: 'Yesterday has passed, tomorrow is still on the road, cherish the present.',
 	dest: 'public',
 	head: [
 		['link', {
@@ -42,6 +42,11 @@ module.exports = {
 					text: 'GitHub',
 					link: 'https://github.com/Asushiny',
 					icon: 'reco-github'
+				},
+				{
+					text: 'Bilibili',
+					link: 'https://space.bilibili.com/35841364',
+					icon: 'reco-bilibili'
 				}]
 			}
 		],
@@ -58,9 +63,9 @@ module.exports = {
 			}
 		},
 		friendLink: [{
-			title: 'Asukksk\'s Blog',
+			title: 'Asushiny\'s Blog',
 			desc: '记录，成为更好的自己。',
-			logo: '/images/liella.png',
+			logo: '/images/hoteru.png',
 			link: 'https://asukksk.vercel.app/'
 		}, ],
 		logo: '/images/liella.ico',
@@ -74,9 +79,9 @@ module.exports = {
 		// 最后更新时间
 		lastUpdated: '上次更新',
 		// 作者
-		author: 'Asukksk',
+		author: 'Asushiny',
 		// 作者头像
-		authorAvatar: '/images/liella.png',
+		authorAvatar: '/images/hoteru.png',
 		// 备案号
 		record: 'xxxx',
 		// 项目开始时间

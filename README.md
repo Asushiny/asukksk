@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Asukksk
-tagline: 好きなことを頑張るこどに，お終い何であるですか?!
+heroText: Asushiny
+tagline: Yesterday has passed, tomorrow is still on the road, cherish the present.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
