@@ -11,7 +11,7 @@ module.exports = {
 	head: [
 		['link', {
 			rel: 'icon',
-			href: '/images/liella.ico'
+			href: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/liella.ico'
 		}],
 		['meta', {
 			name: 'viewport',
@@ -65,10 +65,10 @@ module.exports = {
 		friendLink: [{
 			title: 'Asushiny\'s Blog',
 			desc: '记录，成为更好的自己。',
-			logo: '/images/hoteru.png',
+			logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
 			link: 'https://asukksk.vercel.app/'
 		}, ],
-		logo: '/images/liella.ico',
+		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/liella.ico',
 		// 搜索设置
 		search: true,
 		searchMaxSuggestions: 10,
@@ -81,7 +81,7 @@ module.exports = {
 		// 作者
 		author: 'Asushiny',
 		// 作者头像
-		authorAvatar: '/images/hoteru.png',
+		authorAvatar: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
 		// 备案号
 		record: 'xxxx',
 		// 项目开始时间
