@@ -39,15 +39,16 @@ module.exports = {
 				text: '关于',
 				icon: 'reco-account',
 				items: [{
-					text: 'GitHub',
-					link: 'https://github.com/Asushiny',
-					icon: 'reco-github'
-				},
-				{
-					text: 'Bilibili',
-					link: 'https://space.bilibili.com/35841364',
-					icon: 'reco-bilibili'
-				}]
+						text: 'GitHub',
+						link: 'https://github.com/Asushiny',
+						icon: 'reco-github'
+					},
+					{
+						text: 'Bilibili',
+						link: 'https://space.bilibili.com/35841364',
+						icon: 'reco-bilibili'
+					}
+				]
 			}
 		],
 		type: 'blog',
@@ -73,7 +74,31 @@ module.exports = {
 		search: true,
 		searchMaxSuggestions: 10,
 		// 自动形成侧边导航
-		sidebar: 'auto',
+		sidebar: {
+			'/blogs/category1/2022/': [{
+				title: '私の日记2022',
+				path: '',
+				sidebarDepth: 2,
+				children: [{
+					title: '一月',
+					path: '',
+					children: [{
+						title: '12号',
+						path: '/blogs/category1/2022/01/12/',
+						
+					}]
+				},{
+					title: '四月',
+					path: '',
+					children: [{
+						title: '22号',
+						path: '/blogs/category1/2022/04/22/',
+						
+					}]
+				}]
+			}]
+		},
+		// sidebar: 'auto',
 		//显示所有页面的标题链接
 		displayAllHeaders: true,
 		// 最后更新时间
@@ -109,7 +134,7 @@ module.exports = {
 		lineNumbers: true
 	},
 	plugins: [
-		[//图片放大插件
+		[ //图片放大插件
 			//先安装在配置， npm install vuepress-plugin-dynamic-title --save
 			'@vuepress/plugin-medium-zoom', {
 				selector: 'img.medium-zoom-image',
