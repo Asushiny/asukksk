@@ -36,19 +36,9 @@ module.exports = {
 				icon: 'reco-blog',
 			},
 			{
-				text: '关于',
-				icon: 'reco-account',
-				items: [{
-						text: 'GitHub',
-						link: 'https://github.com/Asushiny',
-						icon: 'reco-github'
-					},
-					{
-						text: 'Bilibili',
-						link: 'https://space.bilibili.com/35841364',
-						icon: 'reco-bilibili'
-					}
-				]
+				text: '日记',
+				link: '/blogs/category1/2022/01/12/',
+				icon: 'reco-suggestion',
 			}
 		],
 		type: 'blog',
@@ -63,12 +53,13 @@ module.exports = {
 				text: '标签' // 默认 “标签”
 			}
 		},
-		friendLink: [{
-			title: 'Asushiny\'s Blog',
-			desc: '记录，成为更好的自己。',
-			logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
-			link: 'https://asukksk.vercel.app/'
-		}, ],
+		// 友情链接
+		// friendLink: [{
+		// 	title: 'Asushiny\'s Blog',
+		// 	desc: '记录，成为更好的自己。',
+		// 	logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
+		// 	link: 'https://asukksk.vercel.app/'
+		// }, ],
 		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/liella.ico',
 		// 搜索设置
 		search: true,

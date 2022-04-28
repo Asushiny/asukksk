@@ -1,6 +1,8 @@
 ---
 title: 小小恋歌
 date: 2022-04-08
+author: reco_luan
+sidebar: auto
 tags:
  - 小小恋歌
 categories:

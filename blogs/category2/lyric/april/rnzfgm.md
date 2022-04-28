@@ -1,6 +1,8 @@
 ---
 title: 光るなら(若能绽放光芒)
 date: 2022-02-18
+author: reco_luan
+sidebar: auto
 tags:
  - 四月是你的谎言
 categories:
