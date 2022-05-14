@@ -9,6 +9,6 @@ categories:
  -  日记
 ---
 
-<img src="https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/myBlog.png" alt class="medium-zoom-image">
+<img src="https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/diary/myBlog.png" alt class="medium-zoom-image">
 
 今天，搭建了属于自己的博客。

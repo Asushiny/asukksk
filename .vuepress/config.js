@@ -11,7 +11,7 @@ module.exports = {
 	head: [
 		['link', {
 			rel: 'icon',
-			href: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/liella.ico'
+			href: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/logo.ico'
 		}],
 		['meta', {
 			name: 'viewport',
@@ -60,7 +60,7 @@ module.exports = {
 		// 	logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
 		// 	link: 'https://asukksk.vercel.app/'
 		// }, ],
-		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/liella.ico',
+		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/keke.png',
 		// 搜索设置
 		search: true,
 		searchMaxSuggestions: 10,
@@ -85,6 +85,10 @@ module.exports = {
 						title: '22号',
 						path: '/blogs/category1/2022/04/22/',
 						
+					},{
+						title: '28号',
+						path: '/blogs/category1/2022/04/28/',
+						
 					}]
 				}]
 			}]
@@ -97,7 +101,8 @@ module.exports = {
 		// 作者
 		author: 'Asushiny',
 		// 作者头像
-		authorAvatar: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
+		// authorAvatar: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
+		authorAvatar: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/authorAvatar.png',
 		// 备案号
 		record: 'xxxx',
 		// 项目开始时间

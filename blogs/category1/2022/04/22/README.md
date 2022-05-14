@@ -9,6 +9,6 @@ categories:
  -  日记
 ---
 
-<img src="https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/ayaka.jpg" alt class="medium-zoom-image">
+<img src="https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/diary/ayaka.jpg" alt class="medium-zoom-image">
 
 神里，我的神里。
