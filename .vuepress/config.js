@@ -31,19 +31,19 @@ module.exports = {
 				icon: 'reco-date'
 			},
 			{
-				text: '回顾',
-				link: '/docs/',
-				icon: 'reco-blog',
-			},
-			{
 				text: '日记',
-				link: '/blogs/category1/2022/01/12/',
+				link: '/blogs/category1/Genshin/',
 				icon: 'reco-suggestion',
 			},
 			{
 				text: '歌词',
-				link: '/blogs/category2/lyric/xxlg/xxlg/',
+				link: '/blogs/category2/lyric/xiju/xiju/',
 				icon: 'reco-document',
+			},
+			{
+				text: '回顾',
+				link: '/docs/',
+				icon: 'reco-blog',
 			}
 		],
 		type: 'blog',
@@ -71,11 +71,14 @@ module.exports = {
 		searchMaxSuggestions: 10,
 		// 自动形成侧边导航
 		sidebar: {
-			'/blogs/category1/2022/': [{
+			'/blogs/category1/': [{
 				title: '私の日记2022',
 				path: '',
 				sidebarDepth: 2,
 				children: [{
+					title: '原神',
+					path: '/blogs/category1/Genshin/',
+				},{
 					title: '一月',
 					path: '',
 					children: [{
@@ -98,11 +101,11 @@ module.exports = {
 				path: '',
 				sidebarDepth: 2,
 				children: [{
-					title: '小小恋歌',
-					path: '/blogs/category2/lyric/xxlg/xxlg',
-				},{
 					title: '喜剧',
 					path: '/blogs/category2/lyric/xiju/xiju',
+				},{
+					title: '小小恋歌',
+					path: '/blogs/category2/lyric/xxlg/xxlg',
 				},{
 					title: '光るなら(若能绽放光芒)',
 					path: '/blogs/category2/lyric/april/rnzfgm',
