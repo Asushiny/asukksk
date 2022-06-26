@@ -39,6 +39,11 @@ module.exports = {
 				text: '日记',
 				link: '/blogs/category1/2022/01/12/',
 				icon: 'reco-suggestion',
+			},
+			{
+				text: '歌词',
+				link: '/blogs/category2/lyric/xxlg/xxlg/',
+				icon: 'reco-document',
 			}
 		],
 		type: 'blog',
@@ -60,7 +65,7 @@ module.exports = {
 		// 	logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
 		// 	link: 'https://asukksk.vercel.app/'
 		// }, ],
-		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/keke.png',
+		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/logo.ico',
 		// 搜索设置
 		search: true,
 		searchMaxSuggestions: 10,
@@ -82,14 +87,25 @@ module.exports = {
 					title: '四月',
 					path: '',
 					children: [{
-						title: '22号',
-						path: '/blogs/category1/2022/04/22/',
-						
-					},{
 						title: '28号',
 						path: '/blogs/category1/2022/04/28/',
 						
 					}]
+				}]
+			}],
+			'/blogs/category2/lyric/': [{
+				title: '歌词本',
+				path: '',
+				sidebarDepth: 2,
+				children: [{
+					title: '小小恋歌',
+					path: '/blogs/category2/lyric/xxlg/xxlg',
+				},{
+					title: '喜剧',
+					path: '/blogs/category2/lyric/xiju/xiju',
+				},{
+					title: '光るなら(若能绽放光芒)',
+					path: '/blogs/category2/lyric/april/rnzfgm',
 				}]
 			}]
 		},
