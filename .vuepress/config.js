@@ -11,7 +11,7 @@ module.exports = {
 	head: [
 		['link', {
 			rel: 'icon',
-			href: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/logo.ico'
+			href: '/images/logo.ico'
 		}],
 		['meta', {
 			name: 'viewport',
@@ -65,7 +65,7 @@ module.exports = {
 		// 	logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
 		// 	link: 'https://asukksk.vercel.app/'
 		// }, ],
-		logo: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/logo.ico',
+		logo: '/images/logo.ico',
 		// 搜索设置
 		search: true,
 		searchMaxSuggestions: 10,
@@ -78,21 +78,29 @@ module.exports = {
 				children: [{
 					title: '原神',
 					path: '/blogs/category1/Genshin/',
-				},{
+				}, {
 					title: '一月',
 					path: '',
 					children: [{
 						title: '12号',
 						path: '/blogs/category1/2022/01/12/',
-						
+
 					}]
-				},{
+				}, {
 					title: '四月',
 					path: '',
 					children: [{
 						title: '28号',
 						path: '/blogs/category1/2022/04/28/',
-						
+
+					}]
+				}, {
+					title: '七月',
+					path: '',
+					children: [{
+						title: '17号',
+						path: '/blogs/category1/2022/07/17/',
+
 					}]
 				}]
 			}],
@@ -101,12 +109,15 @@ module.exports = {
 				path: '',
 				sidebarDepth: 2,
 				children: [{
+					title: '花の塔',
+					path: '/blogs/category2/lyric/lycoris/hzt',
+				}, {
 					title: '喜剧',
 					path: '/blogs/category2/lyric/xiju/xiju',
-				},{
+				}, {
 					title: '小小恋歌',
 					path: '/blogs/category2/lyric/xxlg/xxlg',
-				},{
+				}, {
 					title: '光るなら(若能绽放光芒)',
 					path: '/blogs/category2/lyric/april/rnzfgm',
 				}]
@@ -120,8 +131,7 @@ module.exports = {
 		// 作者
 		author: 'Asushiny',
 		// 作者头像
-		// authorAvatar: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/hoteru.png',
-		authorAvatar: 'https://asushiny.oss-cn-guangzhou.aliyuncs.com/images/authorAvatar.png',
+		authorAvatar: '/images/authorAvatar.png',
 		// 备案号
 		record: 'xxxx',
 		// 项目开始时间
