@@ -72,35 +72,27 @@ module.exports = {
 		// 自动形成侧边导航
 		sidebar: {
 			'/blogs/category1/': [{
-				title: '私の日记2022',
+				title: '私の日记',
 				path: '',
 				sidebarDepth: 2,
 				children: [{
 					title: '原神',
 					path: '/blogs/category1/Genshin/',
 				}, {
-					title: '一月',
+					title: '2022',
 					path: '',
 					children: [{
-						title: '12号',
+						title: '1月12号',
 						path: '/blogs/category1/2022/01/12/',
-
-					}]
-				}, {
-					title: '四月',
-					path: '',
-					children: [{
-						title: '28号',
+					}, {
+						title: '4月28号',
 						path: '/blogs/category1/2022/04/28/',
-
-					}]
-				}, {
-					title: '七月',
-					path: '',
-					children: [{
-						title: '17号',
+					}, {
+						title: '7月17号',
 						path: '/blogs/category1/2022/07/17/',
-
+					}, {
+						title: '7月25号',
+						path: '/blogs/category1/2022/07/25/',
 					}]
 				}]
 			}],
@@ -133,7 +125,7 @@ module.exports = {
 		// 作者头像
 		authorAvatar: '/images/authorAvatar.png',
 		// 备案号
-		record: 'xxxx',
+		// record: 'xxxx',
 		// 项目开始时间
 		startYear: '2021',
 		/**

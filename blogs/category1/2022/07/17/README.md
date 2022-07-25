@@ -1,12 +1,11 @@
 ---
-title: 星团第二季和Lycoris Recoil
+title: Liella! P1插曲
 date: 2022-07-17
 tags:
  - Liella!
- - Lycoris Recoil
 categories:
  -  日记
 ---
 
-<img src="/images/diary/china.jpg" alt class="medium-zoom-image">
-可可可爱，千泷可爱!
+## 可可 可爱滴捏
+<img src="/images/diary/liella.jpg" alt class="medium-zoom-image">
